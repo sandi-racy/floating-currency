@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+.fc {
+	align-items: center;
+	background: rgba(169,169,169, 0.5);
+	color: #02006C;
+	display: flex;
+	font-family: 'Crimson Text';
+	height: 100%;
+	left: 0px;
+	justify-content: center;
+	position: fixed;
+	text-align: center;
+	top: 0px;
+	width: 100%;
+	-webkit-app-region: drag;
+}
+
+.fc--currency {
+	display: block;
+	font-size: 20px;
+}
+
+.fc--equal {
+	display: block;
+}
+
+.fc--time {
+	color: #2D2D2D;
+	font-size: 12px;
+}
+
+.fc--currency-image {
+	bottom: -10px;
+	opacity: 0.1;
+	position: absolute;
+	right: -10px;
+}
+
+.fc--message__error {
+	color: red;
+}
